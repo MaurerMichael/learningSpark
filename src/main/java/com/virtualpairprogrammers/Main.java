@@ -36,7 +36,7 @@ public class Main {
 
 //        flatMapExample(sparkContext);
 
-//        readingFileIntoSpark(sparkContext);
+        readingFileIntoSpark(sparkContext);
 
 //        joinExample(sparkContext);
 
@@ -48,20 +48,11 @@ public class Main {
 
 //        cartesiansExample(sparkContext);
 
-        abschnitt13Warmup(sparkContext);
-
-//        abschnitt13(sparkContext);
 
         sparkContext.close();
     }
 
-    public static void abschnitt13(JavaSparkContext sc) {
 
-    }
-
-    public static void abschnitt13Warmup(JavaSparkContext sc) {
-
-    }
 
     public static void cartesiansExample(JavaSparkContext sparkContext) {
         List<Tuple2<Integer, Integer>> visitsRaw = new ArrayList<>();
